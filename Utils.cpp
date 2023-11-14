@@ -477,7 +477,7 @@ ostream& operator<<(std::ostream& os, const Statistic<double> &stat) { stat.text
 string replaceAll(const std::string input, const std::string search, const std::string replace)
 {
 	string output = input;
- 	unsigned index1 = 0;
+ 	size_t index1 = 0;
 
 	while (index1 < output.size()) {
 	  try {
